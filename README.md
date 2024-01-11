@@ -9,3 +9,5 @@
 | 03  | Bai 3                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai3/) |
 | 04  | Bai 4                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai4/) |
 | 05  | Bai 5                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai5/) |
+| 06  | Bai 6                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai6/) |
+| 07  | Bai 7                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai7/) |
