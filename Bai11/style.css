@@ -57,6 +57,7 @@ body{
     border: none;
     border-radius: 6px;
     color: white;
+    background-color: var(--success-light);
     font-size: 20px;
     border-left: 6px solid var(--success);
     overflow: hidden;
