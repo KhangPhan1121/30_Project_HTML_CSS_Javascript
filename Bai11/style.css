@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 :root{
     --success: rgb(0, 128, 0);
-    --warning: rgb(202, 181, 16);
-    --error: rgb(255, 16, 16);
+    --warning: rgb(203, 181, 16);
+    --error: rgb(244, 16, 16);
 
     --success-light: rgba(0, 128, 0, 0.4);
-    --warning-light: rgba(202, 181, 16, 0.4);
-    --error-light: rgba(255, 16, 16, 0.4);
+    --warning-light: rgba(203, 181, 16, 0.4);
+    --error-light: rgba(244, 16, 16, 0.4);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
 body{
@@ -25,13 +25,13 @@ body{
 }
 
 .control button{
-    padding: 5px 13px;
-    border-radius: 3px;
+    padding: 8px 16px;
+    border-radius: 4px;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    margin: 0 8px;
+    margin: 0 10px;
 }
 
 .success{
@@ -46,7 +46,7 @@ body{
     background: var(--error);
 }
 
-#toast{
+#toasts{
     position: fixed;
     top: 10px;
     right: 10px;
@@ -57,10 +57,10 @@ body{
     border: none;
     border-radius: 6px;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     border-left: 6px solid var(--success);
     overflow: hidden;
-    animation: slide_show 2s ease forwards;
+    animation: slide_show 3s ease forwards;
     margin-bottom: 10px;
 }
 
@@ -75,21 +75,21 @@ body{
     left: 0;
     height: 4px;
     width: 100%;
-    animation: countdown 3s ease;
+    animation: countdown 4s ease forwards;
 }
 
-.toast .success{
-    background:6px solid var(--success);
+.toast.success{
+    border-left:6px solid var(--success);
     background: var(--success-light);
 }
 
-.toast .warning{
-    background:6px solid var(--warning);
+.toast.warning{
+    border-left:6px solid var(--warning);
     background: var(--warning-light);
 }
 
-.toast .error{
-    background:6px solid var(--error);
+.toast.error{
+    border-left:6px solid var(--error);
     background: var(--error-light);
 }
 
@@ -125,7 +125,7 @@ body{
         transform: translateX(0%);
     }
     100%{
-        transform: translateX(-10%);
+        transform: translateX(-10px);
     }
 }
 

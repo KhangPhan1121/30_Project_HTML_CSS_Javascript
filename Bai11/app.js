@@ -3,7 +3,7 @@ var btnWarning = document.querySelector('.control .warning')
 var btnError = document.querySelector('.control .error')
 
 btnSuccess.addEventListener('click', function() {
-    createToast('success')
+    createToast('success' + 10000)
 })
 
 btnWarning.addEventListener('click', function() {
@@ -14,13 +14,14 @@ btnError.addEventListener('click', function() {
     createToast('error')
 })
 
-function createToast(status){
+function createToast(status, timeout){
     let templateInner = `<i class="fa-solid fa-circle-exclamation"></i>
     <span class="message">This is a Success message</span>`
     switch(status)
     {
         case 'success':
-            templateInner = `<i class="fa-solid fa-circle-exclamation"></i> <span class="message">This is a Success message</span>`
+            templateInner = `<i class="fa-solid fa-circle-exclamation"></i> 
+            <span class="message">This is a Success message</span>`
             break;
         case 'error':
             templateInner = `<i class="fa-solid fa-triangle-exclamation"></i>
@@ -41,12 +42,12 @@ function createToast(status){
 
     var toastList = document.getElementById('toasts')
     toastList.appendChild(toast)
-
+    timeout = timeout ||4000 
     setTimeout(function(){
-        toast.style.animation = 'slide_hide 1s ease forwards'
-    }, 4000)
+        toast.style.animation = 'slide_hide 2s ease forwards'
+    }, timeout)
     setTimeout(function(){
         toast.remove()
-    }, 6000)
+    }, timeout + 1000)
     
 }
