@@ -10,7 +10,7 @@ function createTag() {
 	tags.forEach((tag, index) => {
 		let liTag = `
             <li>${tag}
-            <i class="uit uit-multiply" onclick="removeTag(this, '${index}')"></i>
+            <i class="fa-solid fa-x" onclick="removeTag(this, '${index}')"></i>
             </li>
             `
 		ul.innerHTML += liTag
