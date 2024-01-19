@@ -3,7 +3,7 @@ var btnWarning = document.querySelector('.control .warning')
 var btnError = document.querySelector('.control .error')
 
 btnSuccess.addEventListener('click', function() {
-    createToast('success' + 10000)
+    createToast('success', 10000)
 })
 
 btnWarning.addEventListener('click', function() {
