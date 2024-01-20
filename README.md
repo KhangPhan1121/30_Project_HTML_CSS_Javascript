@@ -15,3 +15,9 @@
 | 09  | Bai 9                            | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai9/) |
 | 10  | Bai 10                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai10/)|
 | 11  | Bai 11                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai11/)|
+| 12  | Bai 12                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai12/)|
+| 13  | Bai 13                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai13/)|
+| 14  | Bai 14                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai14/)|
+| 15  | Bai 15                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai15/)|
+| 16  | Bai 16                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai16/)|
+| 17  | Bai 17                           | [Demo](https://khangphan1121.github.io/30_Project_HTML_CSS_Javascript/Bai17/)|
