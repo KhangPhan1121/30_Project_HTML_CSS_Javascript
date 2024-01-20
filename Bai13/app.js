@@ -29,7 +29,7 @@ upload.addEventListener('change', function () {
     var fileReader = new FileReader()
     fileReader.readAsDataURL(file)
 
-    fileReader.onload = function () {
+    fileReader.onload = function (e) {
         img.src = e.target.result
     }
 
