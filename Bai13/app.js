@@ -1,7 +1,9 @@
 var upload = document.querySelector('#mypicture')
 var preview = document.querySelector('.preview')
 var error = document.querySelector('.error')
+var img = document.createElement('img')
 
+img.alt = 'Tieu de'
 
 upload.addEventListener('change', function () {
 
@@ -34,4 +36,5 @@ upload.addEventListener('change', function () {
     }
 
     preview.appendChild(img)
+    img.style.width = '100%'
 })
