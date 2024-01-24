@@ -76,12 +76,12 @@ section{
     transform: translateX(0);
 }
 
-.left-to-left{
+.right-to-left{
     transform: translateX(200%);
     transition: 1s;
 }
 
-.left-to-left.start{
+.right-to-left.start{
     transform: translateX(0);
 }
 

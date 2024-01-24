@@ -6,7 +6,7 @@ function toggleAnimationElementInWindow(element){
     var heightScreen = window.innerHeight
 
     if(!(rect.bottom < 0 || rect.top > heightScreen)){
-        element.classList.add('active')
+        element.classList.add('start')
     }else{
         element.classList.remove('start')
     }
