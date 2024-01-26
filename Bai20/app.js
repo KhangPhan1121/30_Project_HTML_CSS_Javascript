@@ -16,4 +16,4 @@ setInterval(function () {
         }
     }
     p.innerHTML = originContent.substring(0, index)
-}, 100)
+}, 200)

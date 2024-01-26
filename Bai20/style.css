@@ -21,8 +21,7 @@ body{
     color: var(--primary-color);
     font-weight: bold;
     font-size: 70px;
-    text-shadow: 0 0 40px var(--primary-color);
-    animation: typing 5s steps(1000) infinite, blink 1s infinite;
+    text-shadow: 0 0 100px var(--primary-color);
     white-space: nowrap;
     overflow: hidden;
 }
@@ -40,7 +39,7 @@ body{
     0%, 100%{
         border-right: 10px solid var(--primary-color);
     }
-    80%{
+    50%{
         border-right: 10px solid transparent;
     }
 }
